@@ -1,0 +1,11 @@
+name: Say Hello
+
+on: [push]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greet the Dev
+        run: echo "Hello Joseph 👋 — your workflow ran successfully!"
